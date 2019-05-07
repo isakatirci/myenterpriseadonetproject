@@ -50,7 +50,7 @@
     <Compile Include="Interfaces\IBOOrderItem.cs" />
     <Compile Include="Interfaces\IBOProduct.cs" />
     <Compile Include="Interfaces\IBOSupplier.cs" />
-    <Compile Include="Interfaces\IzProjectNameNorthwindConn_BaseBusiness.cs" />
+    <Compile Include="Interfaces\IBaseBusiness.cs" />
     <Compile Include="Implementation\Criteria.cs" />
     <Compile Include="Implementation\CriteriaExpression.cs" />
     <Compile Include="Implementation\BOCustomer.cs" />
@@ -58,7 +58,7 @@
     <Compile Include="Implementation\BOOrderItem.cs" />
     <Compile Include="Implementation\BOProduct.cs" />
     <Compile Include="Implementation\BOSupplier.cs" />
-    <Compile Include="Implementation\zProjectNameNorthwindConn_BaseBusiness.cs" />
+    <Compile Include="Implementation\BaseBusiness.cs" />
     <Compile Include="Repository\Interfaces\IGenericRepository.cs" />
     <Compile Include="Repository\Interfaces\IRepositoryConnection.cs" />
     <Compile Include="Repository\Interfaces\InjectionPointAttribute.cs" />

@@ -499,7 +499,7 @@ namespace ProjectNameNorthwind.Data
 						retObj._orderNumber					 = Convert.IsDBNull(row["OrderNumber"]) ? null : (string)row["OrderNumber"];
 						retObj._customerId					 = Convert.IsDBNull(row["CustomerId"]) ? (Int32?)null : (Int32?)row["CustomerId"];
 						retObj._totalAmount					 = Convert.IsDBNull(row["TotalAmount"]) ? (decimal?)null : (decimal?)row["TotalAmount"];
-						retObj._ctrVersion					 = Convert.IsDBNull(row["ctr_version"]) ? (Int32?)null : (Int32?)row["ctr_version"];
+						//retObj._ctrVersion					 = Convert.IsDBNull(row["ctr_version"]) ? (Int32?)null : (Int32?)row["ctr_version"];
 						objList.Add(retObj);
 					}
 				}

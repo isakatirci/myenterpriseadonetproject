@@ -17,10 +17,11 @@ using ProjectNameNorthwind.Business.Repository.Interfaces;
 
 namespace ProjectNameNorthwind.Business
 {
-	public partial class zProjectNameNorthwindConn_BaseBusiness : IzProjectNameNorthwindConn_BaseBusiness
+    //zProjectNameNorthwindConn_BaseBusiness
+    public partial class BaseBusiness : IBaseBusiness
 	{
 		#region initialization
-		public zProjectNameNorthwindConn_BaseBusiness()
+		public BaseBusiness()
 		{
 			Init();
 		}

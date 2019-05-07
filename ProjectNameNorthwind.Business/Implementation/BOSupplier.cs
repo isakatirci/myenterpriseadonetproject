@@ -18,7 +18,7 @@ namespace ProjectNameNorthwind.Business
 	///This is the definition of the class BOSupplier.
 	///It maintains a collection of BOProduct objects.
 	///</Summary>
-	public partial class BOSupplier : zProjectNameNorthwindConn_BaseBusiness, IBOSupplier, IQueryableCollection, IUnitOfWorkEntity
+	public partial class BOSupplier : BaseBusiness, IBOSupplier, IQueryableCollection, IUnitOfWorkEntity
 	{
 		#region member variables
 		protected Int32? _id;

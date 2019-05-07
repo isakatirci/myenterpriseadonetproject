@@ -18,7 +18,7 @@ namespace ProjectNameNorthwind.Business
 	///This is the definition of the class BOCustomer.
 	///It maintains a collection of BOOrder objects.
 	///</Summary>
-	public partial class BOCustomer : zProjectNameNorthwindConn_BaseBusiness, IBOCustomer, IQueryableCollection, IUnitOfWorkEntity
+	public partial class BOCustomer : BaseBusiness, IBOCustomer, IQueryableCollection, IUnitOfWorkEntity
 	{
 		#region member variables
 		protected Int32? _id;

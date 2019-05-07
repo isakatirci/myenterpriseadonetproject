@@ -10,7 +10,8 @@ using ProjectNameNorthwind.Business.Repository.Interfaces;
 
 namespace ProjectNameNorthwind.Business.Interfaces
 {
-	public partial interface IzProjectNameNorthwindConn_BaseBusiness
+    //IzProjectNameNorthwindConn_BaseBusiness
+    public partial interface IBaseBusiness
 	{
 		void BeginTransactions(IRepositoryConnection[] repos, string trans);
 		void BeginTransaction(IRepositoryConnection repo, string trans);

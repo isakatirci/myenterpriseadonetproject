@@ -9,7 +9,7 @@ $(document).ready(function() {
 function getlist(page)
 {
     // Send an AJAX request
-    $.getJSON(getBaseUrl() + uri + "/?page=" + page)
+    $.getJSON(getBaseUrl() + uri + "GetOrder/?page=" + page)
         .done(function(data) {
             // On success, 'data' contains a list of mytestclass1.
             $.each(data.Data, function(key, item) {

@@ -18,7 +18,7 @@ namespace ProjectNameNorthwind.Business
 	///This is the definition of the class BOProduct.
 	///It maintains a collection of BOOrderItem objects.
 	///</Summary>
-	public partial class BOProduct : zProjectNameNorthwindConn_BaseBusiness, IBOProduct, IQueryableCollection, IUnitOfWorkEntity
+	public partial class BOProduct : BaseBusiness, IBOProduct, IQueryableCollection, IUnitOfWorkEntity
 	{
 		#region member variables
 		protected Int32? _id;

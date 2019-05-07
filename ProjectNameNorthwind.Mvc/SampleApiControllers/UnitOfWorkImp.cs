@@ -12,7 +12,7 @@ using ProjectNameNorthwind.Business.Repository.Interfaces;
 
 namespace ProjectNameNorthwind.Mvc.SampleApiControllers
 {
-    public class UnitOfWorkImp : zProjectNameNorthwindConn_BaseBusiness, IUnitOfWork
+    public class UnitOfWorkImp : BaseBusiness, IUnitOfWork
     {
         private enum OpType
         { Create, Update, Delete };
@@ -80,7 +80,7 @@ namespace ProjectNameNorthwind.Mvc.SampleApiControllers
         }
     }
 
-    public class UnitOfWorkForwarder : zProjectNameNorthwindConn_BaseBusiness, IUnitOfWorkEntity
+    public class UnitOfWorkForwarder : BaseBusiness, IUnitOfWorkEntity
     {
         Action _saveFn; Action _updateFn; Action _deleteFn;
 
