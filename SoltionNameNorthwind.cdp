@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <version>5.0</version>
+  <solution>
+    <solutionname>SoltionNameNorthwind</solutionname>
+    <solutionlocation>C:\Users\isa.katirci\Desktop\CodeTrigger</solutionlocation>
+    <buildsolution>True</buildsolution>
+    <refreshservices>False</refreshservices>
+    <projects>
+      <project>
+        <projectname>ProjectNameNorthwind</projectname>
+        <codelanguage>CS</codelanguage>
+        <datasources>
+          <msql1datasource>
+            <datasourceid>2fe61ae3-c893-45f1-83e9-87aa6473f316</datasourceid>
+            <datasourcename>zProjectNameNorthwindConn</datasourcename>
+            <servername>ISTTURDEV25\SQLEXPRESS</servername>
+            <catalogue>Northwind</catalogue>
+            <schemaname />
+            <usewindowsauthentication>True</usewindowsauthentication>
+            <sqlserverusername />
+            <sqlserverpassword />
+            <dao_enabled>True</dao_enabled>
+            <dao_interfacescope>True</dao_interfacescope>
+            <dao_implementationscope>True</dao_implementationscope>
+            <dao_classprefix>DAO</dao_classprefix>
+            <dao_classnamespace>ProjectNameNorthwind.Data</dao_classnamespace>
+            <dao_classoutputfolder>\Implementation</dao_classoutputfolder>
+            <dao_interfaceoutputfolder>\Interfaces</dao_interfaceoutputfolder>
+            <dao_classoutputfilepath>~\\ProjectNameNorthwind.Data</dao_classoutputfilepath>
+            <dao_projectfilename>~\\ProjectNameNorthwind.Data\ProjectNameNorthwind.Data.csproj</dao_projectfilename>
+            <dao_spinlinesql>True</dao_spinlinesql>
+            <dao_spautoscriptdatabase>False</dao_spautoscriptdatabase>
+            <dao_sptblprefixestoignore>Tbl,Vw</dao_sptblprefixestoignore>
+            <dao_spprefix>ctpr</dao_spprefix>
+            <dao_spreturnerrorcode>False</dao_spreturnerrorcode>
+            <dao_spprefixparameters>False</dao_spprefixparameters>
+            <dao_spincludedropifexists>False</dao_spincludedropifexists>
+            <dao_spincludenocount>False</dao_spincludenocount>
+            <dao_spoutputfilepath>~\\ProjectNameNorthwind.Data\Scripts</dao_spoutputfilepath>
+            <bo_enabled>True</bo_enabled>
+            <bo_interfacescope>True</bo_interfacescope>
+            <bo_implementationscope>True</bo_implementationscope>
+            <bo_includewcfattributes>False</bo_includewcfattributes>
+            <bo_classprefix>BO</bo_classprefix>
+            <bo_classnamespace>ProjectNameNorthwind.Business</bo_classnamespace>
+            <bo_classoutputfolder>\Implementation</bo_classoutputfolder>
+            <bo_interfaceoutputfolder>\Interfaces</bo_interfaceoutputfolder>
+            <bo_classoutputfilepath>~\\ProjectNameNorthwind.Business</bo_classoutputfilepath>
+            <bo_projectfilename>~\\ProjectNameNorthwind.Business\ProjectNameNorthwind.Business.csproj</bo_projectfilename>
+          </msql1datasource>
+        </datasources>
+        <generalsettings>
+          <automaticallymodifyprojectfiles>True</automaticallymodifyprojectfiles>
+          <automaticallymodifyprojectconfigfiles>True</automaticallymodifyprojectconfigfiles>
+          <geninterfacedefinitions>True</geninterfacedefinitions>
+          <genconcurrencymanagement>True</genconcurrencymanagement>
+          <genrepositorypattern>True</genrepositorypattern>
+          <geninjectionattributes>True</geninjectionattributes>
+          <genloggingsupport>True</genloggingsupport>
+          <genexceptionhandlingsupport>True</genexceptionhandlingsupport>
+          <genunitofworkpattern>True</genunitofworkpattern>
+          <gensamples>False</gensamples>
+          <linkedprojects>
+            <linkedproject>
+              <linkedprojecttype>Mvc</linkedprojecttype>
+              <additionalattributes>
+                <genmvcidentity>False</genmvcidentity>
+                <mvcversion />
+              </additionalattributes>
+              <generate>True</generate>
+              <projectnamespace>ProjectNameNorthwind.Mvc</projectnamespace>
+              <projectfolder>~\\ProjectNameNorthwind.Mvc\</projectfolder>
+              <projectfilename>~\\ProjectNameNorthwind.Mvc\ProjectNameNorthwind.Mvc.csproj</projectfilename>
+              <projectconfigfilename>~\\ProjectNameNorthwind.Mvc\Web.config</projectconfigfilename>
+              <projectdbconfigfilename>~\\ProjectNameNorthwind.Mvc\generated.config</projectdbconfigfilename>
+              <dotnetversion />
+            </linkedproject>
+          </linkedprojects>
+          <escapedfiles />
+        </generalsettings>
+      </project>
+    </projects>
+  </solution>
+</configuration>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem title="Customer" route="sample/page/customer" />
+  <menuitem title="Order" route="sample/page/order" />
+  <menuitem title="OrderItem" route="sample/page/orderitem" />
+  <menuitem title="Product" route="sample/page/product" />
+  <menuitem title="Supplier" route="sample/page/supplier" />
+</menu>
